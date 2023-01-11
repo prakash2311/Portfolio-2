@@ -180,6 +180,20 @@ img{
 /* -----  FOR LARGER DEVICES ----- */
 
 @media screen and (max-width: 992px){
+
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
   
 }
 
@@ -198,5 +212,10 @@ img{
 /* -----  FOR SMALLEST DEVICE ----- */
 
 @media screen and (max-width: 350px) {
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
   
 }
