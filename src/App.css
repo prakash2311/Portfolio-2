@@ -89,7 +89,7 @@ textarea{
 }
 
 body{
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
   color: var(--text-color);
 }
 
@@ -157,19 +157,20 @@ img{
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 11.25rem 2rem;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--title-color-dark);
 }
- 
-.button__icon{
+
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex{
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
