@@ -201,7 +201,9 @@ img{
 /* -----  FOR MEDIUM DEVICES ----- */
 
 @media screen and (max-width:768px) {
-  
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 /* -----  FOR SMALL DEVICE ----- */
@@ -213,6 +215,9 @@ img{
 /* -----  FOR SMALLEST DEVICE ----- */
 
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font-size:2.25rem;
+  }
 
   .container {
     margin-left: var(--mb-1);
