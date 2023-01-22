@@ -42,7 +42,8 @@
 
 .about__description {
     padding: 0 4rem 0 0;
-    margin:var(--mb-2-5);
+    margin-bottom :var(--mb-2-5);
+    margin-top: var(--mb-2-5);
 }
 
 /*############  BREAKPOINTS  ############*/
@@ -74,7 +75,7 @@
 
     .about__description {
         padding: 0 4rem 0 0;
-        margin-bottom: var(--mb-2-4)
+        margin-bottom: 2rem;
     }
     
   }
@@ -82,20 +83,38 @@
   /* -----  FOR MEDIUM DEVICES ----- */
   
   @media screen and (max-width:768px) {
+    body {
+        margin:  0 0 var(--header-height) 0;
+    }
+    
     .section {
       padding: 2rem 0 4rem;
+    }
+
+    .section__subtitle {
+        margin-bottom: var(--mb-3);
     }
   }
   
   /* -----  FOR SMALL DEVICE ----- */
   
   @media screen and (max-width: 576px) {
+
+    .about__info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__description {
+        padding: 0;
+    }
     
   }
   
   /* -----  FOR SMALLEST DEVICE ----- */
   
   @media screen and (max-width: 350px) {
-  
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
   }
