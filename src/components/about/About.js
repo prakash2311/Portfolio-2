@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg"
+import AboutImg from "../../assets/about.jpeg"
 import  CV from "../../assets/Prakash-Cv.pdf"
 import Info from "./Info"
 
@@ -16,8 +16,9 @@ const About = () => {
                 <div className="about__data">
                     <Info/>
 
-                    <p className="about__description">Full stack developer, I create web application with
-                     Frontend / backend, I have year of experience</p>
+                    <p className="about__description">
+                     Full stack developer, I create web application with
+                     Frontend / backend, I have year of experience </p>
 
                      <a download="" href={CV} className="button button--flex">Download CV
 
