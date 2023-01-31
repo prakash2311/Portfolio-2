@@ -1,4 +1,5 @@
 import React from "react";
+import "./contact.css"
 
 const Contact = () => {
     return (
@@ -60,13 +61,13 @@ const Contact = () => {
                             <input type="Email" name="email" className="contact__form-input" placeholder="Insert your email" />
                         </div>
 
-                        <div className="contact__form-div">
+                        <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">project</label>
                             <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Write your project"></textarea>
                         </div>
 
                         <button className="button button--flex">
-                           Say Hello
+                           Send Massage
                            <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
