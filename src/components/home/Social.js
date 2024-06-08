@@ -7,7 +7,7 @@ const Social = () =>{
             <i class="uil uil-linkedin-alt"></i>
             </a>
 
-            <a href="https://dribbble.com" className="home__social-icon" target="_blank">
+            <a href="" className="home__social-icon" target="_blank">
             <i class="uil uil-dribbble"></i>
             </a>
 
